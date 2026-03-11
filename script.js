@@ -1,7 +1,7 @@
 const questions = [
 {
 text:"LA CAPITAL DE BOLIVIA ES LA PAZ?",
-answer:true
+answer:false
 },
 {
 text:"RUSSIA ES EL PAIS MAS GRANDE DEL MUNDO?",
