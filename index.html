@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Quiz The Papitos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+<!-- INICIO -->
+
+<div id="inicio" class="screen active">
+
+<h1>QUIZZ THE PAPITOS</h1>
+
+
+
+<p>
+Contesta las preguntas del quiz y respeta las reglas.
+Si respondes mal volverás al inicio.
+</p>
+
+<button class="start" onclick="startGame()">INICIAR</button>
+
+</div>
+
+
+<!-- PREGUNTA -->
+
+<div id="pregunta" class="screen">
+
+<div class="quiz-container">
+
+<div class="text">
+<h2 id="question"></h2>
+
+<button class="true" onclick="answer(true)">VERDADERO</button>
+<button class="false" onclick="answer(false)">FALSO</button>
+</div>
+
+<img src="img/Captura de pantalla 2026-03-11 162653.png" class="img">
+
+</div>
+
+</div>
+
+
+<!-- RESULTADOS -->
+
+<div id="resultado" class="screen">
+
+<h1>RESULTADOS</h1>
+
+<p id="resultText"></p>
+
+<button class="menu" onclick="menu()">MENU</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
